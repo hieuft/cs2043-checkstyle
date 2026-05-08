@@ -5,9 +5,9 @@ public class Calculator {
   private static final Logger logger = LoggerFactory.getLogger(Calculator.class);
 
   public int add(int a, int b) {
-    int result = a + b;
-    logger.info("Add: {} + {} = {}", a, b, result);
-    return result;
+int result = a + b;
+logger.info("Add: {} + {} = {}", a, b, result);
+return result;
   }
 
   public int divide(int a, int b) {
